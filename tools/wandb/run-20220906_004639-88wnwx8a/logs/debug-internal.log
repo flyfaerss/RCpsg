@@ -1,0 +1,45 @@
+2022-09-06 00:46:39,985 INFO    StreamThr :31918 [internal.py:wandb_internal():90] W&B internal server running at pid: 31918, started at: 2022-09-06 00:46:39.982924
+2022-09-06 00:46:39,992 DEBUG   HandlerThread:31918 [handler.py:handle_request():141] handle_request: status
+2022-09-06 00:46:40,005 DEBUG   SenderThread:31918 [sender.py:send_request():316] send_request: status
+2022-09-06 00:46:40,010 DEBUG   SenderThread:31918 [sender.py:send():302] send: header
+2022-09-06 00:46:40,011 INFO    WriterThread:31918 [datastore.py:open_for_write():75] open: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220906_004639-88wnwx8a/run-88wnwx8a.wandb
+2022-09-06 00:46:40,187 DEBUG   SenderThread:31918 [sender.py:send():302] send: run
+2022-09-06 00:46:41,055 DEBUG   HandlerThread:31918 [handler.py:handle_request():141] handle_request: check_version
+2022-09-06 00:46:41,074 INFO    SenderThread:31918 [dir_watcher.py:__init__():216] watching files in: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220906_004639-88wnwx8a/files
+2022-09-06 00:46:41,075 INFO    SenderThread:31918 [sender.py:_start_run_threads():913] run started: 88wnwx8a with start time 1662396399.976875
+2022-09-06 00:46:41,075 DEBUG   SenderThread:31918 [sender.py:send():302] send: summary
+2022-09-06 00:46:41,076 INFO    SenderThread:31918 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-06 00:46:41,079 DEBUG   SenderThread:31918 [sender.py:send_request():316] send_request: check_version
+2022-09-06 00:46:41,391 DEBUG   HandlerThread:31918 [handler.py:handle_request():141] handle_request: run_start
+2022-09-06 00:46:41,401 DEBUG   HandlerThread:31918 [meta.py:__init__():35] meta init
+2022-09-06 00:46:41,401 DEBUG   HandlerThread:31918 [meta.py:__init__():50] meta init done
+2022-09-06 00:46:41,401 DEBUG   HandlerThread:31918 [meta.py:probe():216] probe
+2022-09-06 00:46:41,413 DEBUG   HandlerThread:31918 [meta.py:_setup_git():206] setup git
+2022-09-06 00:46:41,453 DEBUG   HandlerThread:31918 [meta.py:_setup_git():213] setup git done
+2022-09-06 00:46:41,453 DEBUG   HandlerThread:31918 [meta.py:_save_pip():54] save pip
+2022-09-06 00:46:41,459 DEBUG   HandlerThread:31918 [meta.py:_save_pip():68] save pip done
+2022-09-06 00:46:41,459 DEBUG   HandlerThread:31918 [meta.py:_save_conda():75] save conda
+2022-09-06 00:46:42,084 INFO    Thread-16 :31918 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220906_004639-88wnwx8a/files/conda-environment.yaml
+2022-09-06 00:46:42,085 INFO    Thread-16 :31918 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220906_004639-88wnwx8a/files/wandb-summary.json
+2022-09-06 00:46:42,086 INFO    Thread-16 :31918 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220906_004639-88wnwx8a/files/requirements.txt
+2022-09-06 00:46:44,275 DEBUG   HandlerThread:31918 [meta.py:_save_conda():85] save conda done
+2022-09-06 00:46:44,276 DEBUG   HandlerThread:31918 [meta.py:probe():254] probe done
+2022-09-06 00:46:44,351 DEBUG   SenderThread:31918 [sender.py:send():302] send: files
+2022-09-06 00:46:44,352 INFO    SenderThread:31918 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-06 00:46:44,385 DEBUG   HandlerThread:31918 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 00:46:44,386 DEBUG   SenderThread:31918 [sender.py:send_request():316] send_request: stop_status
+2022-09-06 00:46:44,772 DEBUG   SenderThread:31918 [sender.py:send():302] send: telemetry
+2022-09-06 00:46:45,086 INFO    Thread-16 :31918 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220906_004639-88wnwx8a/files/conda-environment.yaml
+2022-09-06 00:46:45,087 INFO    Thread-16 :31918 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220906_004639-88wnwx8a/files/wandb-metadata.json
+2022-09-06 00:46:45,391 INFO    Thread-20 :31918 [upload_job.py:push():138] Uploaded file /tmp/tmpe0d8d2nfwandb/2hbj0y79-wandb-metadata.json
+2022-09-06 00:46:59,785 DEBUG   HandlerThread:31918 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 00:46:59,786 DEBUG   SenderThread:31918 [sender.py:send_request():316] send_request: stop_status
+2022-09-06 00:47:09,910 DEBUG   SenderThread:31918 [sender.py:send():302] send: stats
+2022-09-06 00:47:11,120 INFO    Thread-16 :31918 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220906_004639-88wnwx8a/files/config.yaml
+2022-09-06 00:47:15,209 DEBUG   HandlerThread:31918 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 00:47:15,210 DEBUG   SenderThread:31918 [sender.py:send_request():316] send_request: stop_status
+2022-09-06 00:47:30,598 DEBUG   HandlerThread:31918 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 00:47:30,599 DEBUG   SenderThread:31918 [sender.py:send_request():316] send_request: stop_status
+2022-09-06 00:47:40,369 DEBUG   SenderThread:31918 [sender.py:send():302] send: stats
+2022-09-06 00:47:46,007 DEBUG   HandlerThread:31918 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 00:47:46,008 DEBUG   SenderThread:31918 [sender.py:send_request():316] send_request: stop_status

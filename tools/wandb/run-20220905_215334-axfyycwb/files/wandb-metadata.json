@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.10.0-1051-oem-x86_64-with-glibc2.10",
+    "python": "3.8.0",
+    "heartbeatAt": "2022-09-05T13:53:36.334376",
+    "startedAt": "2022-09-05T13:53:34.949301",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/jerry/Desktop/SGG/PSG/OpenPSG/tools/train.py",
+    "codePath": "tools/train.py",
+    "git": {
+        "remote": "https://github.com/Jingkang50/OpenPSG.git",
+        "commit": "a0e5c8f92b7c27883c545ae5f684584a5fa8b351"
+    },
+    "email": null,
+    "root": "/home/jerry/Desktop/SGG/PSG/OpenPSG",
+    "host": "jerry-ThinkStation-P520c",
+    "username": "jerry",
+    "executable": "/home/jerry/anaconda3/envs/scene_graph_benchmark/bin/python"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@i-2.gpushare.com:37615 password (2)" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="192.168.117.85">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/dif_sgg" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@i-2.gpushare.com">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/dif_sgg" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@i-2.gpushare.com:37615 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/dif_sgg" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@i-2.gpushare.com:37615 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/dif_sgg" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="zhangsy@192.168.117.85:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/zhangsy/yjr/dif_sgg" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

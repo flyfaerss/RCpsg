@@ -1,0 +1,110 @@
+2022-09-05 21:53:34,995 INFO    StreamThr :23693 [internal.py:wandb_internal():90] W&B internal server running at pid: 23693, started at: 2022-09-05 21:53:34.993792
+2022-09-05 21:53:35,002 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: status
+2022-09-05 21:53:35,013 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: status
+2022-09-05 21:53:35,018 DEBUG   SenderThread:23693 [sender.py:send():302] send: header
+2022-09-05 21:53:35,019 INFO    WriterThread:23693 [datastore.py:open_for_write():75] open: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220905_215334-axfyycwb/run-axfyycwb.wandb
+2022-09-05 21:53:35,139 DEBUG   SenderThread:23693 [sender.py:send():302] send: run
+2022-09-05 21:53:35,993 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: check_version
+2022-09-05 21:53:36,010 INFO    SenderThread:23693 [dir_watcher.py:__init__():216] watching files in: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220905_215334-axfyycwb/files
+2022-09-05 21:53:36,011 INFO    SenderThread:23693 [sender.py:_start_run_threads():913] run started: axfyycwb with start time 1662386014.967997
+2022-09-05 21:53:36,011 DEBUG   SenderThread:23693 [sender.py:send():302] send: summary
+2022-09-05 21:53:36,012 INFO    SenderThread:23693 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-05 21:53:36,013 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: check_version
+2022-09-05 21:53:36,323 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: run_start
+2022-09-05 21:53:36,333 DEBUG   HandlerThread:23693 [meta.py:__init__():35] meta init
+2022-09-05 21:53:36,333 DEBUG   HandlerThread:23693 [meta.py:__init__():50] meta init done
+2022-09-05 21:53:36,334 DEBUG   HandlerThread:23693 [meta.py:probe():216] probe
+2022-09-05 21:53:36,343 DEBUG   HandlerThread:23693 [meta.py:_setup_git():206] setup git
+2022-09-05 21:53:36,388 DEBUG   HandlerThread:23693 [meta.py:_setup_git():213] setup git done
+2022-09-05 21:53:36,389 DEBUG   HandlerThread:23693 [meta.py:_save_pip():54] save pip
+2022-09-05 21:53:36,393 DEBUG   HandlerThread:23693 [meta.py:_save_pip():68] save pip done
+2022-09-05 21:53:36,394 DEBUG   HandlerThread:23693 [meta.py:_save_conda():75] save conda
+2022-09-05 21:53:37,026 INFO    Thread-16 :23693 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220905_215334-axfyycwb/files/requirements.txt
+2022-09-05 21:53:37,027 INFO    Thread-16 :23693 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220905_215334-axfyycwb/files/conda-environment.yaml
+2022-09-05 21:53:37,028 INFO    Thread-16 :23693 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220905_215334-axfyycwb/files/wandb-summary.json
+2022-09-05 21:53:38,979 DEBUG   HandlerThread:23693 [meta.py:_save_conda():85] save conda done
+2022-09-05 21:53:38,980 DEBUG   HandlerThread:23693 [meta.py:probe():254] probe done
+2022-09-05 21:53:39,014 INFO    Thread-16 :23693 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220905_215334-axfyycwb/files/conda-environment.yaml
+2022-09-05 21:53:39,015 INFO    Thread-16 :23693 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220905_215334-axfyycwb/files/wandb-metadata.json
+2022-09-05 21:53:39,061 DEBUG   SenderThread:23693 [sender.py:send():302] send: files
+2022-09-05 21:53:39,062 INFO    SenderThread:23693 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-05 21:53:39,098 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:53:39,100 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:53:39,488 DEBUG   SenderThread:23693 [sender.py:send():302] send: telemetry
+2022-09-05 21:53:40,102 INFO    Thread-20 :23693 [upload_job.py:push():138] Uploaded file /tmp/tmp1jg_xvvtwandb/3hcjvnl8-wandb-metadata.json
+2022-09-05 21:53:54,494 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:53:54,495 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:54:04,807 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 21:54:07,046 INFO    Thread-16 :23693 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220905_215334-axfyycwb/files/config.yaml
+2022-09-05 21:54:09,896 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:54:09,897 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:54:25,302 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:54:25,303 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:54:35,242 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 21:54:40,706 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:54:40,707 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:54:56,111 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:54:56,112 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:55:05,654 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 21:55:11,517 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:55:11,517 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:55:26,923 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:55:26,924 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:55:36,083 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 21:55:42,319 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:55:42,320 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:55:57,724 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:55:57,725 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:56:06,506 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 21:56:13,129 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:56:13,130 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:56:28,530 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:56:28,531 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:56:36,910 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 21:56:43,945 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:56:43,946 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:56:59,346 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:56:59,347 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:57:07,343 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 21:57:14,775 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:57:14,776 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:57:30,177 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:57:30,178 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:57:37,747 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 21:57:45,608 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:57:45,609 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:58:01,136 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:58:01,137 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:58:08,145 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 21:58:16,554 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:58:16,555 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:58:31,954 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:58:31,955 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:58:38,555 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 21:58:47,351 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:58:47,352 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:59:02,762 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:59:02,763 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:59:08,978 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 21:59:18,164 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:59:18,164 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:59:24,422 INFO    Thread-16 :23693 [dir_watcher.py:_on_file_created():275] file/dir created: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220905_215334-axfyycwb/files/output.log
+2022-09-05 21:59:26,424 INFO    Thread-16 :23693 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220905_215334-axfyycwb/files/output.log
+2022-09-05 21:59:33,567 DEBUG   HandlerThread:23693 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-05 21:59:33,568 DEBUG   SenderThread:23693 [sender.py:send_request():316] send_request: stop_status
+2022-09-05 21:59:39,382 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 21:59:44,498 INFO    Thread-16 :23693 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/jerry/Desktop/SGG/PSG/OpenPSG/tools/wandb/run-20220905_215334-axfyycwb/files/output.log
+2022-09-05 22:00:09,801 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 22:00:40,207 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 22:01:10,617 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 22:01:41,048 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 22:02:11,468 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 22:02:41,885 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 22:03:12,302 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 22:03:42,720 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 22:04:13,133 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 22:04:43,546 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 22:05:13,961 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 22:05:44,375 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 22:06:14,808 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats
+2022-09-05 22:06:45,226 DEBUG   SenderThread:23693 [sender.py:send():302] send: stats

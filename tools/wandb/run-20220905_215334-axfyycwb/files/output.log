@@ -1,0 +1,31 @@
+/home/jerry/anaconda3/envs/scene_graph_benchmark/lib/python3.8/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /opt/conda/conda-bld/pytorch_1623448278899/work/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Traceback (most recent call last):
+  File "/home/jerry/Desktop/SGG/PSG/OpenPSG/tools/train.py", line 242, in <module>
+    main()
+  File "/home/jerry/Desktop/SGG/PSG/OpenPSG/tools/train.py", line 230, in main
+    train_detector(
+  File "/home/jerry/anaconda3/envs/scene_graph_benchmark/lib/python3.8/site-packages/mmdet/apis/train.py", line 244, in train_detector
+    runner.run(data_loaders, cfg.workflow)
+  File "/home/jerry/anaconda3/envs/scene_graph_benchmark/lib/python3.8/site-packages/mmcv/runner/epoch_based_runner.py", line 136, in run
+    epoch_runner(data_loaders[i], **kwargs)
+  File "/home/jerry/anaconda3/envs/scene_graph_benchmark/lib/python3.8/site-packages/mmcv/runner/epoch_based_runner.py", line 53, in train
+    self.run_iter(data_batch, train_mode=True, **kwargs)
+  File "/home/jerry/anaconda3/envs/scene_graph_benchmark/lib/python3.8/site-packages/mmcv/runner/epoch_based_runner.py", line 31, in run_iter
+    outputs = self.model.train_step(data_batch, self.optimizer,
+  File "/home/jerry/anaconda3/envs/scene_graph_benchmark/lib/python3.8/site-packages/mmcv/parallel/data_parallel.py", line 77, in train_step
+    return self.module.train_step(*inputs[0], **kwargs[0])
+  File "/home/jerry/anaconda3/envs/scene_graph_benchmark/lib/python3.8/site-packages/mmdet/models/detectors/base.py", line 248, in train_step
+    losses = self(**data)
+  File "/home/jerry/anaconda3/envs/scene_graph_benchmark/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jerry/anaconda3/envs/scene_graph_benchmark/lib/python3.8/site-packages/mmcv/runner/fp16_utils.py", line 116, in new_func
+    return old_func(*args, **kwargs)
+  File "/home/jerry/anaconda3/envs/scene_graph_benchmark/lib/python3.8/site-packages/mmdet/models/detectors/base.py", line 172, in forward
+    return self.forward_train(img, img_metas, **kwargs)
+  File "/home/jerry/Desktop/SGG/PSG/OpenPSG/openpsg/models/frameworks/sg_panoptic_fpn.py", line 273, in forward_train
+    det_result = self.relation_head(x, img_metas, det_result,
+  File "/home/jerry/anaconda3/envs/scene_graph_benchmark/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jerry/Desktop/SGG/PSG/OpenPSG/openpsg/models/relation_heads/motif_head.py", line 93, in forward
+    roi_feats, union_feats, det_result = self.frontend_features(
